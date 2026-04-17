@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    styles.xml
+    -----------
+    Defines the CalcButton style used by every button in the GridLayout,
+    and the overall app theme.
+
+    Lab 1 - MAD (IIT2201/ICS2201/ISE2201)
+-->
+<resources>
+
+    <!-- App Theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/bg_operator</item>
+        <item name="colorPrimaryDark">@color/bg_primary</item>
+        <item name="colorAccent">@color/bg_equals</item>
+        <item name="android:windowBackground">@color/bg_primary</item>
+        <item name="android:statusBarColor">@color/bg_primary</item>
+    </style>
+
+    <!--
+        CalcButton — base style for ALL calculator buttons.
+        Individual buttons override background/text color in MainActivity.java
+        to demonstrate programmatic color changes.
+    -->
+    <style name="CalcButton">
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/text_digit</item>
+        <item name="android:background">@color/bg_digit</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>
