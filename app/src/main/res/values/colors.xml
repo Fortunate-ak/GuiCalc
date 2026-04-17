@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    colors.xml
+    -----------
+    Custom color palette for GuiCalc.
+    These are referenced in the theme and can also be loaded
+    in Java via ContextCompat.getColor(this, R.color.xxx).
+
+    Lab 1 - MAD (IIT2201/ICS2201/ISE2201)
+    Harare Institute of Technology
+-->
+<resources>
+    <!-- App background — deep navy -->
+    <color name="bg_primary">#0D0D1A</color>
+
+    <!-- Display panel -->
+    <color name="bg_display">#1A1A2E</color>
+
+    <!-- Digit buttons -->
+    <color name="bg_digit">#16213E</color>
+    <color name="text_digit">#E0E0E0</color>
+
+    <!-- Operator buttons -->
+    <color name="bg_operator">#0F3460</color>
+    <color name="text_operator">#E94560</color>
+
+    <!-- Action buttons (AC, +/-, %, DEL) -->
+    <color name="bg_action">#533483</color>
+    <color name="text_action">#FFFFFF</color>
+
+    <!-- Equals button — accent -->
+    <color name="bg_equals">#E94560</color>
+    <color name="text_equals">#FFFFFF</color>
+
+    <!-- General text -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#9E9E9E</color>
+
+    <!-- Status bar -->
+    <color name="colorPrimaryDark">#0D0D1A</color>
+</resources>
