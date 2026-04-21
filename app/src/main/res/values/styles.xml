@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
     styles.xml
-    -----------
+    ===========
     Defines the CalcButton style used by every button in the GridLayout,
     and the overall app theme.
 

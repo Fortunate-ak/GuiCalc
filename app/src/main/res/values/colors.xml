@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
     colors.xml
-    -----------
+    ===========
     Custom color palette for GuiCalc.
     These are referenced in the theme and can also be loaded
     in Java via ContextCompat.getColor(this, R.color.xxx).

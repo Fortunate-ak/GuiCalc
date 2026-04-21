@@ -13,6 +13,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.guicalc"
+        testApplicationId "com.example.guicalc.test"
         minSdk 24               // Android 7.0 — very wide device support
         targetSdk 34
         versionCode 1
